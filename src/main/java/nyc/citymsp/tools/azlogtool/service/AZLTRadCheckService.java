@@ -20,7 +20,7 @@ import java.util.Map;
  * Created by kervin on 2016-04-30.
  */
 @Service
-public interface AZTLRadCheckService
+public interface AZLTRadCheckService
 {
     AZLTRadCheck findByUsername(String username);
     AZLTRadCheck getOne(int id);

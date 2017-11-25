@@ -20,7 +20,7 @@ package nyc.citymsp.tools.azlogtool.service.impl;
 import nyc.citymsp.tools.azlogtool.entity.AZLTRadCheck;
 import nyc.citymsp.tools.azlogtool.entity.AZLTUser;
 import nyc.citymsp.tools.azlogtool.service.AZLTUserService;
-import nyc.citymsp.tools.azlogtool.service.AZTLRadCheckService;
+import nyc.citymsp.tools.azlogtool.service.AZLTRadCheckService;
 import nyc.citymsp.tools.azlogtool.util.AZLTConstants;
 import nyc.citymsp.tools.azlogtool.util.AZLTException;
 import org.apache.commons.codec.binary.Base64;
@@ -104,7 +104,7 @@ public class AZLTUserPassword extends BCryptPasswordEncoder
     public static void changePassword(AZLTUser usr,
                                       String pass,
                                       AZLTUserService userService,
-                                      AZTLRadCheckService radCheckService,
+                                      AZLTRadCheckService radCheckService,
                                       String defaultHash,
                                       boolean validate) throws AZLTException
     {

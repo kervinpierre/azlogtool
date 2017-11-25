@@ -2,7 +2,7 @@ package nyc.citymsp.tools.azlogtool.service.impl;
 
 import nyc.citymsp.tools.azlogtool.entity.AZLTRadCheck;
 import nyc.citymsp.tools.azlogtool.repository.AZLTRadCheckRepository;
-import nyc.citymsp.tools.azlogtool.service.AZTLRadCheckService;
+import nyc.citymsp.tools.azlogtool.service.AZLTRadCheckService;
 import nyc.citymsp.tools.azlogtool.util.AZLTException;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
@@ -25,9 +25,9 @@ import java.util.Objects;
  * Created by kervin on 2016-04-30.
  */
 @Service
-public class AZTLRadCheckServiceImpl implements AZTLRadCheckService
+public class AZLTRadCheckServiceImpl implements AZLTRadCheckService
 {
-    private static final Logger LOGGER = LogManager.getLogger(AZTLRadCheckService.class);
+    private static final Logger LOGGER = LogManager.getLogger(AZLTRadCheckService.class);
 
     @Autowired(required = true)
     private AZLTRadCheckRepository radCheckRepository;
